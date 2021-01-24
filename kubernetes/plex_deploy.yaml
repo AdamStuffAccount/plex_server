@@ -1,5 +1,9 @@
 ---
 version: "2.1"
+metadata: 
+  name: plex_media
+  labels:
+    app: plex
 services:
   plex:
     image: ghcr.io/linuxserver/plex
