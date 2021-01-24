@@ -4,5 +4,5 @@ WORKDIR /app
 
 COPY . /app
 
-CMD /bin/bash touch this.yaml
+CMD /bin/bash touch this.yaml && tail -f /dev/null
 
