@@ -4,4 +4,5 @@ WORKDIR /app
 
 COPY . /app
 
-CMD mkdir /app/test_folder
+CMD /bin/bash touch this.yaml
+
